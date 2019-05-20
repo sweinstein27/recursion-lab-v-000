@@ -29,6 +29,6 @@ function isPalindrome(myString) {
   }
 }
 
-function addUpTo(string){
+function addUpTo(n){
 
 }
