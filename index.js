@@ -9,10 +9,10 @@ function printString(myString) {
   }
 }
 
-function reverseString(string) {
-  revstring = []
-  for (i = 0, i < string.length, i++) {
-    revstring.push(string[0])
-    string.pop()
+function reverseString(myString) {
+  if (myString.length < 2) {
+    return myString;
+  } else {
+    return reverseString(myString.substring(1)) + myString[0];
   }
 }
