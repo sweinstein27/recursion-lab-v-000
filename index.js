@@ -8,3 +8,11 @@ function printString(myString) {
     return true;
   }
 }
+
+function reverseString(string) {
+  revstring = []
+  for (i = 0, i < string.length, i++) {
+    revstring.push(string[0])
+    string.pop()
+  }
+}
