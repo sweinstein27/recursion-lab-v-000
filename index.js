@@ -30,5 +30,5 @@ function isPalindrome(myString) {
 }
 
 function addUpTo(string){
-  
+
 }
