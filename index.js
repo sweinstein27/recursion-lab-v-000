@@ -28,3 +28,7 @@ function isPalindrome(myString) {
     return false;
   }
 }
+
+function addUpTo(string){
+  
+}
